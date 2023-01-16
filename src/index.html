@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="nav-bar">
+          <a href="index.html">Blog</a>
+          <a href="about.html">Developers</a>
+          <a href="#">Developer Blog</a>
+          <a href="#">Support</a>
+        </nav>
+        <div class="img-search">
+          <div class="search-bar-div">
+            <select name="products" class="dropdown">
+              <option value="">All Products</option>
+            </select>
+            <input type="text" class="search-bar" value placeholder="Search" />
+          </div>
+        </div>
+      </header>
+      <section>  
+        <div class="container">
+          <div class="content-top-nav">
+            Home &nbsp;&nbsp; > &nbsp; Getting Started <br /><br />
+          </div>
+          <hr />
+          <br />
+          <div class="nav-content-area-div">
+            <div class="side-nav">
+              <div class="nav-link">
+                Getting Started <button class="nav-arrow" type="button" id="side-nav-btn"><span>></span></button
+                ><button class="nav-down-arrow" type="button" id="v-side-nav-btn"><span>v</span></button>
+              </div>
+              <div class="nav-sub-menu" id="nav-sub-menu">
+                <p>User Guides</p>
+                <p>Developer</p>
+                <p>release Notes</p>
+              </div>
+              <div class="nav-link">
+                personalization <button type="button"><span>></span></button>
+              </div>
+            </div>
+            <div class="content-area">
+              <h2>Getting Started</h2>
+              <br />
+              <div class="grid-item">
+                <div class="category">
+                  <div class="category-inner-content">
+                    <div class="icon">
+                      <i class="material-icons md-36">file_copy</i>
+                    </div>
+                    <div class="topic">
+                      <h2>User Guides</h2>
+                      <p>We're new category, with lots of useful information</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category">
+                  <div class="category-inner-content">
+                    <div class="icon">
+                      <i class="material-icons md-36">code</i>
+                    </div>
+
+                    <div class="topic">
+                      <h2>Developer</h2>
+                      <p>We're new category, with lots of useful information</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="category">
+                  <div class="category-inner-content">
+                    <div class="icon">
+                      <i class="material-icons md-36">campaign</i>
+                    </div>
+                    <div>
+                      <div class="topic">
+                        <h2>Release Notes</h2>
+                        <p>
+                          We're new category, with lots of useful information
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer-section">
+        <footer>
+          <div class="footer-main-div">
+            <h2 class="footer-title">Still need help?</h2>
+            <div class="input-container">
+              <div>
+                <label for="un">First Name</label><br />
+                <input
+                  type="text"
+                  class="text-field"
+                  name="fn"
+                  id="fn"
+                  required
+                />
+              </div>
+              <div>
+                <label for="subject">Last Name</label><br />
+                <input
+                  type="text"
+                  class="text-field"
+                  name="ln"
+                  id="ln"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email</label><br />
+                <input
+                  type="email"
+                  class="text-field"
+                  name="email"
+                  id="email"
+                  required
+                />
+              </div>
+              <input type="button" value="Get Started" class="footer-btn" />
+            </div>
+            <br />
+            <div class="footer-list">
+              <div class="footer-grid-item">
+                <h3>Products</h3>
+                <ul>
+                  <li>Personalization</li>
+                  <li>eCommerce</li>
+                  <li>Order Management</li>
+                  <li>Point of Sale</li>
+                </ul>
+              </div>
+              <div class="footer-grid-item">
+                <h3>Resources</h3>
+                <ul>
+                  <li>Blog</li>
+                  <li>Developer Blog</li>
+                  <li>Developers</li>
+                  <li>Support</li>
+                </ul>
+              </div>
+              <div class="footer-grid-item">
+                <h3>Who We Are</h3>
+                <ul>
+                  <li>Who we are</li>
+                  <li>Leadership</li>
+                  <li>News/Press</li>
+                  <li>Ecommerce Awards</li>
+                </ul>
+              </div>
+              <div class="footer-grid-item">
+                <h3>Employee Login</h3>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
